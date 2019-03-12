@@ -6,12 +6,7 @@
 """
 
 import requests
-import sys
 from bs4 import BeautifulSoup
-
-
-reload(sys)
-sys.setdefaultencoding('utf-8')
 
 
 def text_clean(text):
